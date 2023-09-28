@@ -1,0 +1,49 @@
+.<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        color: blue;
+
+    }
+    body {
+        background-color: rgb(245, 241, 248);
+    
+    }
+    button {
+        background-color: rgb(17, 178, 89);
+        color: blue;
+    }
+    form {
+        border: 1px solid;
+        width: 220px;
+        
+    }
+</style>
+<body>
+    <h1>Registration</h1>
+
+    <div class="container">
+        <h1>Signup Form</h1>
+        <form method="post" action="/signupsubmit">
+            <label for="FullName">Full Name:</label>
+            <input type="text" name="FullName">
+
+            <label for="Email">Email ID:</label>
+            <input type="text" name="Email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" required>
+
+            <input type="submit" value="Sign Up">
+            <a href="kinglogin.html">Already have an account? Login</a>
+        </form>
+    </div>
+
+</body>
+</html>
